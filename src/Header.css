@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.header h2 {
+  font-size: 1.4rem;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1.4rem;
+}
+
+.header ul img {
+  width: 2rem;
+}

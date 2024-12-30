@@ -1,0 +1,72 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-container img {
+  margin-top: 1rem;
+  width: 200px;
+  border-radius: 0.6rem;
+  filter: grayscale(60%);
+}
+
+.hero-description h2 {
+  font-size: 34px;
+  line-height: var(--heading-line);
+  word-spacing: var(--heading-l-spacing);
+  margin-bottom: 2rem;
+}
+
+.hero-description span {
+  border-bottom: solid;
+  border-bottom-width: 4px;
+  border-color: var(--green);
+}
+
+.hero-description p {
+  font-size: 15px;
+  line-height: var(--paragraph-line);
+  margin-bottom: 2.2rem;
+}
+
+.hero-description button {
+  border: none;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  padding-bottom: 10px;
+  border-color: var(--green);
+  font-size: var(--paragraph);
+  text-transform: uppercase;
+  background-color: var(--black);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 6rem;
+}
+
+/* Extra Small Devices (Phones) */
+@media (min-width: 320px) {
+  /* Styles for extra small devices */
+}
+
+/* Small Devices (Phones) */
+@media (min-width: 480px) {
+  /* Styles for small devices */
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 768px) {
+  /* Styles for medium devices */
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 1024px) {
+  /* Styles for large devices */
+}
+
+/* Extra Large Devices (Desktops) */
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+}

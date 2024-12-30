@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--dark-grey);
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.footer p {
+  margin-bottom: 3rem;
+}
+
+form input {
+  background-color: var(--dark-grey);
+  border: none;
+  width: 100%;
+  height: 40px;
+}
+
+form input::placeholder {
+  font-size: 1rem;
+  padding-left: 1.4rem;
+}
+
+.footer button {
+  border: none;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  padding-bottom: 10px;
+  border-color: var(--green);
+  font-size: var(--paragraph);
+  text-transform: uppercase;
+  background-color: var(--dark-grey);
+  color: white;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}

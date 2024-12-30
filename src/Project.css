@@ -1,0 +1,40 @@
+.projectContainer {
+  display: flex;
+  row-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.projectContainer img {
+  height: 250px;
+  object-fit: cover;
+}
+.projectSkillCTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.projectSkillContainer {
+  display: flex;
+  gap: 16px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.actionContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.actionContainer a {
+  border: none;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  padding-bottom: 10px;
+  border-color: var(--green);
+  font-size: var(--paragraph);
+  text-transform: uppercase;
+  background-color: var(--black);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}

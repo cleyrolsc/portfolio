@@ -1,0 +1,33 @@
+:root {
+  --black: #151515;
+  --green: #4ee1a0;
+  --dark-grey: #242424;
+  --grey: #d9d9d9;
+  --white: #ffffff;
+  --heading-xl: 88px;
+  --heading-xl-line: 88px;
+  --heading-xl-spacing: -2.5px;
+  --heading-l: 48px;
+  --heading-l-line: 56px;
+  --heading-l-spacing: -1.5px;
+  --heading-m: 24px;
+  --heading-m-line: 32px;
+  --paragraph: 18px;
+  --paragraph-line: 28px;
+  --space-grotesk: 'Space Grotesk', serif;
+  --red: #ff6f5b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--space-grotesk);
+}
+
+body {
+  min-height: 100vh;
+  /* padding: 0 2rem; */
+  background-color: var(--black);
+  color: white;
+}
