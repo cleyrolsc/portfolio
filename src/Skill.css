@@ -13,3 +13,17 @@
 .skillContainer p {
   font-size: 1.3rem;
 }
+
+@media (min-width: 768px) {
+  .skillContainer {
+    align-items: start;
+  }
+
+  .skillContainer h2 {
+    font-size: 3.4rem;
+  }
+
+  .skillContainer p {
+    font-size: 1.5rem;
+  }
+}

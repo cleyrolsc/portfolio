@@ -25,7 +25,7 @@ export default function Projects() {
         <h1>Projects</h1>
         <button>Contact me</button>
       </div>
-      <div className='projectContainer'>
+      <div className='projectsContainer'>
         {projects.map((project) => (
           <Project {...project}></Project>
         ))}
