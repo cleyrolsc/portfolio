@@ -92,9 +92,6 @@
 }
 
 /* Large Devices (Desktops) */
-@media (min-width: 1024px) {
-  /* Styles for large devices */
-}
 
 /* Extra Large Devices (Desktops) */
 @media (min-width: 1200px) {

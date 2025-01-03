@@ -9,3 +9,9 @@
     gap: 3rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .skillsContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

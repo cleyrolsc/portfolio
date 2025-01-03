@@ -3,14 +3,14 @@ import Project from './Project';
 
 const projects = [
   {
-    image: '/projectImages/Interactive-rating-component.jpg',
+    image: './projectImages/Interactive-rating-component.jpg',
     projectTitle: 'Interactive rating component',
     skills: ['HTML', 'CSS', 'JS'],
-    project: 'https://cleyrolsc.github.io/skilled-elarning-landing-page/',
-    projectCode: 'https://github.com/cleyrolsc/skilled-elarning-landing-page',
+    project: 'https://cleyrolsc.github.io/interactive-rating-component/',
+    projectCode: 'https://github.com/cleyrolsc/interactive-rating-component/',
   },
   {
-    image: '/projectImages/FAQ-accordion.jpg',
+    image: './projectImages/FAQ-accordion.jpg',
     projectTitle: 'FAQ accordion',
     skills: ['HTML', 'CSS', 'JS'],
     project: 'https://cleyrolsc.github.io/faq-accordion/',
